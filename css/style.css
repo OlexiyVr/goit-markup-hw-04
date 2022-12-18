@@ -366,13 +366,22 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: #8e8f99;
 }
 
 .logolist:hover {
   border-color: #4d5ae5;
 }
 
-.logolist:hover, :focus .logolistsitem {
+.logolistsitem{
+  fill: #8e8f99;
+}
+
+.logolist:hover .logolistsitem{
+  fill: #4d5ae5;
+}
+
+.logolist:focus .logolistsitem {
   fill: #4d5ae5;
 }
 
@@ -380,6 +389,8 @@ a {
   width: 104px;
   height: 56px;
 }
+
+
 
 .logolista:not(:last-child) {
   margin-right: 24px;
@@ -451,6 +462,7 @@ a {
   width: 24px;
   height: 24px;
 }
+
 
 /* Portfolio  Page*/
 /* Section Button Filtres */
