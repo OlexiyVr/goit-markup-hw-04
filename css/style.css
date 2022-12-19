@@ -543,7 +543,7 @@ ul {
 }
 
 .row-imgs {
-  flex-basis: calc(100% / 3 - 24px);
+  flex-basis: calc((100% - 2*24px) /3);
 }
 
 .rowlink {
@@ -565,7 +565,11 @@ ul {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-  border: 0 0.5px 0.5px 0.5px solid #f4f4fd;
+  border-top: 0;
+  border-right: 0.5px;
+  border-bottom: 0.5px;
+  border-left: 0.5px;
+  border-color: #f4f4fd;
 }
 
 .row-title {
